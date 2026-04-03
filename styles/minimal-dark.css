@@ -1,0 +1,51 @@
+:root {
+  /* Page background */
+  --bg: rgb(12, 14, 18);
+
+  /* Surfaces */
+  --main-color: rgb(18, 20, 26);        /* Cards */
+  --secondary-color: rgb(22, 25, 33);   /* Toolbars / Bars */
+  --button-hover: rgb(30, 34, 44);      /* Hover */
+
+  /* Borders */
+  --border-color: rgb(45, 50, 66);
+
+  /* Text */
+  --text-color: rgb(236, 239, 244);
+  --text-muted: rgb(160, 168, 182);
+
+  /* Accent (clean, not too neon) */
+  --accent: rgb(120, 190, 255);
+  --accent-soft: rgba(120, 190, 255, 0.18);
+
+  /* Shadows (subtle) */
+  --shadow-md: 0 10px 24px rgba(0,0,0,0.35);
+  --shadow-lg: 0 18px 40px rgba(0,0,0,0.45);
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+}
+
+#header {
+  background: center / cover no-repeat url("/Images/minimal-dark/header.png");
+}
+
+body {
+  background-image: url('/Images/minimal-dark/background.png');
+}
+
+.social-btn {
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.social-btn:hover {
+  color: var(--accent);
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+}

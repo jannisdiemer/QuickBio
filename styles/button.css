@@ -1,0 +1,92 @@
+.account-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.account-menu-btn {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.account-menu-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.login-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.account-dropdown {
+    min-width: 200px;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 0;
+    overflow: hidden;
+    background: rgba(25, 25, 25, 0.95);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.account-dropdown .dropdown-item {
+    color: white;
+    padding: 10px 16px;
+    transition: background 0.2s ease;
+}
+
+.account-dropdown .dropdown-item:hover {
+    background: rgba(255,255,255,0.08);
+    color: white;
+}
+
+.account-dropdown .dropdown-divider {
+    border-color: rgba(255,255,255,0.12);
+}
+
+.share-btn-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2000;
+}
+
+.share-btn {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.share-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.share-icon {
+    width: 22px;
+    height: 22px;
+}

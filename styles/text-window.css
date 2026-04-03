@@ -1,0 +1,39 @@
+.editor-card {
+  background-color: var(--main-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+/* Toolbar */
+.editor-toolbar {
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Buttons */
+.editor-toolbar .btn {
+  color: var(--text-color);
+  border-color: var(--border-color);
+  background-color: transparent;
+}
+
+.editor-toolbar .btn:hover {
+  background-color: var(--button-hover);
+  color: white;
+}
+
+/* Editable area */
+.editor-area {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  border: none !important;
+  min-height: 200px;
+  outline: none !important;
+}
+
+.editor-area:focus {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  box-shadow: none !important;
+}

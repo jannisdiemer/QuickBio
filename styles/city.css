@@ -1,0 +1,47 @@
+:root {
+  /* Core */
+  --bg: rgb(20, 24, 36);
+
+  --main-color: rgb(33, 40, 59);
+  --secondary-color: rgb(44, 52, 73);
+  --button-hover: rgb(55, 65, 90);
+
+  --border-color: rgb(60, 70, 95);
+
+  --text-color: rgb(220, 225, 235);
+  --text-muted: rgb(165, 175, 195);
+
+  /* Shadows / Glow */
+  --shadow-md: 0 10px 24px rgba(0,0,0,0.22);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,0.4);
+
+  --accent: rgb(120, 160, 255);
+  --accent-soft: rgba(120, 160, 255, 0.16);
+
+  /* Radii */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+}
+
+#header {
+  background: center / cover no-repeat url("/Images/city/header.png");
+}
+
+body {
+  background-image: url('/Images/city/background.png');
+}
+
+.social-btn {
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.social-btn:hover {
+  color: var(--accent);
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+}

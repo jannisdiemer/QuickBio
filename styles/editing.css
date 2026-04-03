@@ -1,0 +1,116 @@
+.account-menu,
+.share-btn-wrapper {
+    position: absolute;
+    top: 20px;
+    z-index: 2000;
+}
+
+.account-menu {
+    right: 20px;
+}
+
+.share-btn-wrapper {
+    left: 20px;
+}
+
+.account-menu-btn,
+.share-btn {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    padding: 0;
+}
+
+.account-menu-btn:hover,
+.account-menu-btn:focus,
+.share-btn:hover,
+.share-btn:focus {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    color: white;
+}
+
+.account-menu-btn::after {
+    display: none !important;
+}
+
+.login-icon,
+.share-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.account-dropdown {
+    min-width: 220px;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 0;
+    overflow: hidden;
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.account-dropdown .dropdown-item {
+    color: white;
+    padding: 10px 16px;
+    transition: background 0.2s ease;
+}
+
+.account-dropdown .dropdown-item:hover,
+.account-dropdown .dropdown-item:focus {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+.account-dropdown .dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.preview-placeholder {
+    opacity: 0.65;
+}
+
+#preview-name,
+#preview-shortintro {
+    word-break: break-word;
+}
+
+#preview-description {
+    white-space: pre-wrap;
+    min-height: 120px;
+}
+
+#pfp-wrap {
+    position: relative;
+}
+
+#pfp-edit {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.design-selected {
+    outline: 3px solid rgba(255,255,255,0.55);
+}
