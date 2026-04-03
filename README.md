@@ -26,3 +26,5 @@ Full documentation: /docs
 
 ## 👤 Author
 Jannis Diemer
+=======
+# Bio-Page
