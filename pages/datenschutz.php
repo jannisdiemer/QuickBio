@@ -225,7 +225,7 @@ Die jeweils aktuelle Version ist auf der Website verfügbar.</p>
                 </div>
 
                 <div class="footer-copy">
-                    © <?php echo date("Y"); ?> Jannis Diemer
+                    © <?php echo date("Y"); ?> <a href="/jannisdiemer">Jannis Diemer</a>
                 </div>
 
             </div>

@@ -177,7 +177,7 @@ Changes become effective upon publication on the website.</p>
                 </div>
 
                 <div class="footer-copy">
-                    © <?php echo date("Y"); ?> Jannis Diemer
+                    © <?php echo date("Y"); ?> <a href="/jannisdiemer">Jannis Diemer</a>
                 </div>
 
             </div>

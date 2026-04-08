@@ -160,7 +160,7 @@
                 </div>
 
                 <div class="footer-copy">
-                    © <?php echo date("Y"); ?> Jannis Diemer
+                    © <?php echo date("Y"); ?> <a href="/jannisdiemer">Jannis Diemer</a>
                 </div>
 
             </div>
