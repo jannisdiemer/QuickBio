@@ -15,9 +15,6 @@ A modern personal profile platform that allows users to create and share a custo
 - HTML, CSS, JavaScript
 - Bootstrap
 
-## 📸 Preview
-(Screenshot hier)
-
 ## ⚡ Live Demo
 https://quickbio.net
 
