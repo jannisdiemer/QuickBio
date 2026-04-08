@@ -3,9 +3,9 @@
   --bg: rgb(12, 14, 18);
 
   /* Surfaces */
-  --main-color: rgb(18, 20, 26);        /* Cards */
-  --secondary-color: rgb(22, 25, 33);   /* Toolbars / Bars */
-  --button-hover: rgb(30, 34, 44);      /* Hover */
+  --main-color: rgb(18, 20, 26);        
+  --secondary-color: rgb(22, 25, 33);  
+  --button-hover: rgb(30, 34, 44);    
 
   /* Borders */
   --border-color: rgb(45, 50, 66);

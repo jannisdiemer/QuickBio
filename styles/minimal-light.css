@@ -4,19 +4,19 @@
   --bg: rgb(242, 242, 247);
 
   /* Main surfaces */
-  --main-color: rgb(255, 255, 255);        /* Cards */
-  --secondary-color: rgb(249, 250, 252);   /* Toolbars / Secondary surfaces */
-  --button-hover: rgb(240, 242, 247);      /* Hover state */
+  --main-color: rgb(255, 255, 255);      
+  --secondary-color: rgb(249, 250, 252); 
+  --button-hover: rgb(240, 242, 247);   
 
   /* Borders */
   --border-color: rgb(229, 231, 235);
 
   /* Text */
-  --text-color: rgb(17, 24, 39);           /* Primary text */
-  --text-muted: rgb(107, 114, 128);        /* Secondary text */
+  --text-color: rgb(17, 24, 39);  
+  --text-muted: rgb(107, 114, 128);  
 
   /* Accent */
-  --accent: rgb(37, 99, 235);              /* Apple-style blue */
+  --accent: rgb(37, 99, 235); 
   --accent-soft: rgba(37, 99, 235, 0.18);
 
   /* Shadows (lighter than dark theme) */

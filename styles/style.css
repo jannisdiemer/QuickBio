@@ -4,7 +4,7 @@
   padding: 24px 12px;
 }
 
-/* Grundlayout für Sticky Footer */
+/* Grundlayout für Footer */
 html, body {
   min-height: 100%;
   margin: 0;
@@ -301,8 +301,6 @@ body {
   height: 24px;
 }
 
-/* Alte height/overflow-Blocker entfernt
-   Nur horizontalen Overflow verhindern */
 .container-fluid,
 .container-fluid.vh-100,
 .row.h-100 {
