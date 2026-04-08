@@ -120,7 +120,7 @@
                                                     placeholder="Repeat password">
                                             </div>
 
-                                            <button type="submit" name="submit" class="btn custom-login-btn w-100">
+                                            <button type="submit" name="submit" class="btn custom-login-btn w-100" style="color : white; border-radius: 20px; border-color: white;">
                                                 Reset Password
                                             </button>
                                         </form>

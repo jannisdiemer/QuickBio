@@ -20,7 +20,7 @@
     {
         $mail = new PHPMailer(true);
 
-        $resetLink = 'https://quickbio.net/verify-reset/' . urlencode($resetCode);
+        $resetLink = 'https://quickbio.net/reset/' . urlencode($resetCode);
 
         $mail->isSMTP();
         $mail->Host = 'SMTP-SERVER';

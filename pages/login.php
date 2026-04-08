@@ -139,6 +139,8 @@
 
 										<a class="text-light" href="/create">Create a new account</a><br><br>
 
+										<a class="text-light" href="/reset">Reset password</a><br><br>
+
 										<button type="submit" name="submit" class="btn custom-login-btn w-100" style="color : white; border-radius: 20px; border-color: white;">
 											Login
 										</button>

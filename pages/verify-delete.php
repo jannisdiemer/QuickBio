@@ -300,7 +300,7 @@
                                         value="<?php echo htmlspecialchars($_POST['email'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
                                 </div>
 
-                                <button type="submit" name="submit" class="btn custom-login-btn w-100">
+                                <button type="submit" name="submit" class="btn custom-login-btn w-100" style="color : white; border-radius: 20px; border-color: white;">
                                     Resend deletion code
                                 </button>
                             </form>

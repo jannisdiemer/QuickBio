@@ -243,7 +243,7 @@
         $stmt->bindParam(":shortintroduction", $shortintroduction, PDO::PARAM_STR);
 
         if ($stmt->execute()) {
-            header("Location: /editing&saved=1");
+            header("Location: /editing?saved=1");
             exit;
         }
 

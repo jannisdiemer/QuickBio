@@ -379,6 +379,10 @@
                                             <a class="form-check-label text-light" href="/login">
                                                 Login to your existing account
                                             </a>
+
+                                            <a class="form-check-label text-light" href="mailto:support@quickbio.net?subject=Request%20Invite%20Code">
+                                                Request an invite code
+                                            </a>
                                         </div>
 
                                         <button
