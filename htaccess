@@ -1,8 +1,0 @@
-RewriteEngine On
-
-# Wenn Datei oder Ordner existiert → normal laden
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# Alles andere → index.php
-RewriteRule ^ index.php [L]
