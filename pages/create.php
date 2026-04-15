@@ -125,24 +125,27 @@
         $password = $_POST["password"] ?? "";
         $rpassword = $_POST["rpassword"] ?? "";
         $logincode = trim($_POST["logincode"] ?? "");
+		$accepted = isset($_POST["accepted"]);
 
-        if (
-            $email === "" ||
-            $username === "" ||
-            $password === "" ||
-            $rpassword === "" ||
-            $logincode === ""
-        ) {
-            $error = "Please fill in all fields.";
-        } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $error = "Please enter a valid email address.";
-        } elseif ($password !== $rpassword) {
-            $error = "Passwords do not match.";
-        } elseif (strlen($password) < 8) {
-            $error = "Your password must be at least 8 characters long.";
-        } elseif (!preg_match('/^[a-zA-Z0-9_-]+$/', $username)) {
-            $error = "Username may only contain letters, numbers, underscores and hyphens.";
-        } else {
+		if (
+			$email === "" ||
+			$username === "" ||
+			$password === "" ||
+			$rpassword === "" ||
+			$logincode === ""
+		) {
+			$error = "Please fill in all fields.";
+		} elseif (!$accepted) {
+			$error = "You must accept the Datenschutz and AGB to create an account.";
+		} elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$error = "Please enter a valid email address.";
+		} elseif ($password !== $rpassword) {
+			$error = "Passwords do not match.";
+		} elseif (strlen($password) < 8) {
+			$error = "Your password must be at least 8 characters long.";
+		} elseif (!preg_match('/^[a-zA-Z0-9_-]+$/', $username)) {
+			$error = "Username may only contain letters, numbers, underscores and hyphens.";
+		} else {
             try {
                 $stmt = $mysql->prepare("
                     SELECT ID, Email
@@ -363,6 +366,20 @@
                                                 name="rpassword"
                                                 placeholder="Repeat password">
                                         </div>
+										
+										<div class="form-check mb-3">
+											<input
+												class="form-check-input"
+												type="checkbox"
+												id="accepted"
+												name="accepted"
+												value="1"
+												<?php echo isset($_POST["accepted"]) ? "checked" : ""; ?>
+												required>
+											<label class="form-check-label text-light" for="accepted">
+												I have read and accept the <a href="/datenschutz">Privacy Policy</a> and <a href="/tos">Terms of Service</a>.
+											</label>
+										</div>
 
                                         <div class="mb-3">
                                             <label class="form-label text-light" for="logincode">Login Code</label>
